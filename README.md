@@ -17,20 +17,20 @@ Signal-DFM is an offline traffic signal control framework for intelligent transp
 
 ```text
 Signal-DFM/
-├── README.md
-├── requirements.txt
-├── configs/
-│   └── ...
-├── data/
-│   └── README.md
-├── models/
-│   └── ...
-├── scripts/
-│   └── ...
-├── utils/
-│   └── ...
-└── docs/
-    └── ...
+|-- README.md
+|-- requirements.txt
+|-- configs/
+|   `-- ...
+|-- data/
+|   `-- README.md
+|-- models/
+|   `-- ...
+|-- scripts/
+|   `-- ...
+|-- utils/
+|   `-- ...
+`-- docs/
+    `-- ...
 ```
 
 The final release will include instructions for preparing the public DiffLight / CityFlow benchmark data, running Signal-DFM, reproducing the main ATT tables, and generating ablation results.
