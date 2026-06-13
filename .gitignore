@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+conda-env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Training outputs
+records/
+checkpoints/
+logs/
+runs/
+wandb/
+tensorboard/
+*.log
+
+# Large model/data artifacts
+*.pkl
+*.pickle
+*.pth
+*.pt
+*.ckpt
+*.npz
+*.npy
+*.h5
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Keep lightweight data documentation
+!data/README.md
+
+# LaTeX / paper build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
