@@ -1,12 +1,12 @@
 # Signal-DFM Release Checklist
 
-This checklist records the steps required to turn this placeholder repository into the public code release after paper acceptance.
+This checklist records the steps required to release the corresponding Signal-DFM code, configuration files, and experiment scripts upon paper acceptance.
 
 ## Release Gate
 
 - Release trigger: paper acceptance.
 - Public repository: https://github.com/wang-soonandsoon/Signal-DFM
-- Release target: code, configs, and scripts needed to reproduce the reported Signal-DFM experiments.
+- Release target: corresponding code, configs, and scripts needed to reproduce the reported Signal-DFM experiments.
 
 ## Code To Include
 
