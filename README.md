@@ -4,14 +4,14 @@ Official repository for **Signal-DFM: Roadnet-Guided Action-Token Flow Matching 
 
 Signal-DFM is an offline traffic signal control framework for intelligent transportation systems. Instead of generating future traffic states and then recovering actions, Signal-DFM directly models the executable signal phase as a discrete action token. The learned discrete phase-flow score is combined with a roadnet-grounded PressLight / Max-Pressure-style pressure prior computed from CityFlow phase laneLinks.
 
-> **Release status.** This repository is prepared as the public release entry point for the paper. The code, configuration files, and experiment scripts will be made publicly available after the paper is accepted.
+> **Release status.** This repository is prepared as the public release entry point for the paper. The corresponding code, configuration files, and experiment scripts will be released in this repository upon paper acceptance.
 
 ## Highlights
 
 - **Direct action-token generation:** models signal phase decisions directly over executable phase tokens.
 - **Roadnet-guided pressure prior:** computes per-action pressure scores from CityFlow roadnet topology and traffic-light laneLinks.
 - **Offline deployable controller:** trains from logged trajectories and evaluates frozen policies in CityFlow without additional online learning.
-- **Reproducible experiments:** planned release includes training scripts, evaluation scripts, benchmark configurations, and result parsing utilities.
+- **Reproducible experiments:** the release upon paper acceptance will include training scripts, evaluation scripts, benchmark configurations, and result parsing utilities.
 
 ## Planned Repository Structure
 
@@ -33,7 +33,7 @@ Signal-DFM/
     `-- ...
 ```
 
-The final release will include instructions for preparing the public DiffLight / CityFlow benchmark data, running Signal-DFM, reproducing the main ATT tables, and generating ablation results.
+Upon paper acceptance, the release will include instructions for preparing the public DiffLight / CityFlow benchmark data, running Signal-DFM, reproducing the main ATT tables, and generating ablation results.
 
 ## Benchmark Protocol
 
@@ -47,7 +47,7 @@ Signal-DFM follows the public DiffLight benchmark protocol for CityFlow-based of
 
 ## Citation
 
-A BibTeX entry will be added after the paper is accepted.
+The final BibTeX entry will be added upon paper acceptance.
 
 ```bibtex
 @inproceedings{signaldfm2026,
@@ -60,4 +60,4 @@ A BibTeX entry will be added after the paper is accepted.
 
 ## License
 
-The license will be specified when the code is released.
+The license will be specified when the corresponding code is released upon paper acceptance.
